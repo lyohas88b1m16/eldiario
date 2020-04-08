@@ -2,9 +2,9 @@
 El Diario to control process
 
 # Features
-Make books and notes
-Add result in note
-Make a schedule
+Make books and notes.
+Add result in note.
+Make a schedule.
 
 # To Do
 - simple NodeJS server
