@@ -7,7 +7,7 @@ Add result in note.
 Make a schedule.
 
 # To Do
-- simple NodeJS server
+- simple NodeJS server (DONE)
 - API:
 1 CRUD for books;
 2 CRUD for notes;
