@@ -6,5 +6,12 @@
   </head>
   <body>
     <h1>El Diario</h1>
+    <div id="date"></div>
+    <div id="time"></div>
   </body>
+  <script>
+    let today = new Date()
+    document.querySelector('#date').innerHTML = `${today.getFullYear()}-${today.getMonth()+1}-${today.getDate()}`
+    document.querySelector('#time').innerHTML = `${today.getHours()}:${today.getMinutes()}`
+  </script>
 </html>

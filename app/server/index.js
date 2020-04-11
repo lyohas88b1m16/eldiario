@@ -9,7 +9,7 @@ const Server = http.createServer(async (request, response) => {
   let answer = await Router.listen(request)
 
   response.writeHead(answer.status, answer.type)
-  response.write(answer.data)
+  response.write(answer.content)
   response.end()
 })
 

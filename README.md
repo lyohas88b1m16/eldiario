@@ -6,6 +6,9 @@ Make books and notes.
 Add result in note.
 Make a schedule.
 
+# Run
+node index.js
+
 # To Do
 - simple NodeJS server (DONE)
 - API:
@@ -15,5 +18,4 @@ Make a schedule.
 1 create/update book;
 2 create/update note;
 3 week schedule;
-
 
